@@ -1,46 +1,63 @@
 # ESP32-BaseProject
 
-> Professional baseline template for ESP32 projects based on PlatformIO, Visual Studio Code and Git.
-
-## Overview
-
-ESP32-BaseProject is the reference repository used to bootstrap every new ESP32 firmware project.
-
-The goal is to provide:
-
-- A consistent project structure
-- Reproducible development environment
-- Professional Git workflow
-- PlatformIO configuration
-- VS Code configuration
-- Reusable PowerShell automation
-- Documentation-first approach
-- Long-term maintainability
+> Template professionale di riferimento per tutti i progetti basati su ESP32, PlatformIO, Visual Studio Code e Git.
 
 ---
 
-## Supported Hardware
+# Stato del Progetto
+
+**Versione Template:** 1.0.0
+
+Questo repository costituisce la baseline ufficiale da cui creare tutti i futuri progetti ESP32.
+
+---
+
+# Obiettivi
+
+L'obiettivo del progetto è fornire un ambiente di sviluppo professionale, uniforme e facilmente manutenibile.
+
+Caratteristiche principali:
+
+- Struttura standardizzata del repository
+- Configurazione completa di PlatformIO
+- Configurazione completa di Visual Studio Code
+- Workflow Git professionale
+- Commit firmati (SSH Signing)
+- Script PowerShell per l'automazione
+- Documentazione completa
+- Predisposizione per GitLab CI/CD
+- Predisposizione OTA
+- Architettura modulare
+
+---
+
+# Hardware supportato
+
+Attualmente:
 
 - ESP32-WROOM-32
-- ESP32 Dev Module (`esp32dev`)
-- ESP32-S3 *(planned)*
-- ESP32-C3 *(planned)*
+- ESP32 Dev Module (`board = esp32dev`)
+
+Previsto:
+
+- ESP32-S3
+- ESP32-C3
 
 ---
 
-## Development Environment
+# Requisiti Software
 
-| Component | Recommended Version |
-|-----------|--------------------:|
+| Componente | Versione consigliata |
+|------------|---------------------:|
 | Windows | 11 x64 |
-| Visual Studio Code | Latest |
-| PlatformIO | Latest 6.x |
-| Git | 2.54+ |
-| PowerShell | 7.x (compatible with Windows PowerShell 5.1) |
+| Git | 2.54 o superiore |
+| Visual Studio Code | Ultima versione |
+| PlatformIO IDE | Ultima versione |
+| PowerShell | 7.x (compatibile con Windows PowerShell 5.1) |
 
 ---
 
-## Repository Structure
+# Struttura del Repository
 
 ```text
 ESP32-BaseProject
@@ -63,37 +80,39 @@ ESP32-BaseProject
 
 ---
 
-## Getting Started
+# Avvio rapido
 
-1. Clone the repository.
-2. Open it with Visual Studio Code.
-3. Install the recommended extensions.
-4. Connect the ESP32 board.
-5. Build the firmware.
-6. Upload the firmware.
-7. Open the serial monitor.
+1. Clonare il repository.
+2. Aprire la cartella con Visual Studio Code.
+3. Installare le estensioni consigliate.
+4. Collegare la scheda ESP32.
+5. Compilare il firmware.
+6. Caricare il firmware.
+7. Aprire il monitor seriale.
 
 ---
 
-## Build
+# Comandi principali
+
+## Compilazione
 
 ```powershell
 .\tools\build.ps1
 ```
 
-## Upload
+## Caricamento firmware
 
 ```powershell
 .\tools\flash.ps1
 ```
 
-## Serial Monitor
+## Monitor seriale
 
 ```powershell
 .\tools\monitor.ps1
 ```
 
-## Clean
+## Pulizia progetto
 
 ```powershell
 .\tools\clean.ps1
@@ -101,47 +120,49 @@ ESP32-BaseProject
 
 ---
 
-## Git Workflow
+# Workflow Git
 
-- `main` → production-ready code
-- `develop` → integration branch
-- `feature/*` → new features
-- `bugfix/*` → fixes
-- `release/*` → release preparation
-- `hotfix/*` → production fixes
+- `main` → Produzione
+- `develop` → Integrazione
+- `feature/*` → Nuove funzionalità
+- `bugfix/*` → Correzioni
+- `release/*` → Preparazione rilascio
+- `hotfix/*` → Correzioni urgenti
 
-All commits should be signed.
-
----
-
-## Documentation
-
-Project documentation is stored in the `docs/` directory.
+Tutti i commit devono essere firmati.
 
 ---
 
-## Versioning
+# Versionamento
 
-Semantic Versioning (SemVer):
+Il progetto utilizza **Semantic Versioning (SemVer)**.
 
-```
+Formato:
+
+```text
 MAJOR.MINOR.PATCH
 ```
 
-Example:
+Esempio:
 
-```
+```text
 1.0.0
 ```
 
 ---
 
-## License
+# Documentazione
 
-See the `LICENSE` file.
+La documentazione tecnica è disponibile nella cartella `docs/`.
 
 ---
 
-## Status
+# Licenza
 
-This repository is the official baseline template for all future ESP32 projects.
+Consultare il file `LICENSE`.
+
+---
+
+# Note
+
+Questo repository rappresenta il template ufficiale di sviluppo per tutti i progetti ESP32 derivati.
