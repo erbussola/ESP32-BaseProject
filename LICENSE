@@ -1,0 +1,19 @@
+Copyright (c) 2026 Fabrizio Biscossi
+
+Tutti i diritti riservati.
+
+Il presente repository costituisce un template personale/professionale per lo sviluppo
+di progetti basati su ESP32.
+
+Salvo diversa indicazione scritta dall'autore, non è consentito:
+
+- copiare integralmente il progetto;
+- ridistribuire il repository o sue parti;
+- pubblicare versioni modificate;
+- utilizzare il contenuto per finalità commerciali.
+
+È consentito l'utilizzo personale del repository e dei progetti derivati da parte
+dell'autore.
+
+Qualora in futuro il progetto venga reso Open Source, questo file sarà sostituito
+dalla licenza scelta (ad esempio MIT, Apache 2.0 o altra licenza approvata OSI).

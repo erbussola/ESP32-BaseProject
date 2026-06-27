@@ -1,0 +1,24 @@
+{
+    "recommendations": [
+        "platformio.platformio-ide",
+        "ms-vscode.cpptools",
+        "editorconfig.editorconfig",
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml",
+        "aaron-bond.better-comments",
+        "usernamehw.errorlens",
+        "ms-vscode.powershell",
+        "gitlab.gitlab-workflow",
+        "github.vscode-pull-request-github",
+        "mechatroner.rainbow-csv",
+        "foxundermoon.shell-format",
+        "timonwong.shellcheck",
+        "dotjoshjohnson.xml",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "pkief.material-icon-theme"
+    ],
+    "unwantedRecommendations": [
+        "gruntfuggly.todo-tree"
+    ]
+}
